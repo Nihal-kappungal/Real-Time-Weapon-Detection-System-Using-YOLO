@@ -226,7 +226,7 @@ For questions, feedback, or support, please reach out through the following chan
 
 - **Email**: [nihalkappungal.workspace@gmail.com](mailto:nihalkappungal.workspace@gmail.com)
 - **GitHub Issues**: Open an issue on this repository at [github.com/Nihal-Kappungal/Real-Time-Weapon-Detection-System-Using-YOLO/issues](https://github.com/Nihal-kappungal/Real-Time-Weapon-Detection-System-Using-YOLO/issues)
-- **LinkedIn**: Connect with the team at [linkedin.com/in/Nihal-k]([https://linkedin.com/in/your-profile](https://www.linkedin.com/in/nihal-k-b07618258?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app))
+- **LinkedIn**: Connect with the team at [linkedin.com/in/Nihal-k](https://www.linkedin.com/in/nihal-k-b07618258?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)
 
 We value your input and aim to respond promptly to all inquiries.
 
