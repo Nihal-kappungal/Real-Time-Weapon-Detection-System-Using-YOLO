@@ -1,0 +1,7 @@
+flask
+flask-socketio
+flask-sqlalchemy
+flask-cors
+ultralytics
+opencv-python
+twilio

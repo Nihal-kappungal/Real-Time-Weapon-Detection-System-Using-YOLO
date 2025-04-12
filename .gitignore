@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+*.egg-info/
+
+# Node.js
+node_modules/
+dist/
+build/
+
+# Database
+backend/database.db
+
+# Environment variables
+.env
+
+# IDE files
+.vscode/
+.idea/
