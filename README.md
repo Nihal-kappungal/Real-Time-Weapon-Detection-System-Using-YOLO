@@ -61,6 +61,7 @@ Below are examples of the project's dashboard, notifications, table, and graph:
 *A graph visualizing the distribution of detected weapon types over time.*
 
 ![SMS Notification](screenshots/sms_notification1.jpg)
+
 *An SMS alert sent via Twilio, showing detected weapons and timestamp.*
 
 ## Technologies Used
