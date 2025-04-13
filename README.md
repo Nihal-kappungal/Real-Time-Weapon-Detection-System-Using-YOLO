@@ -115,8 +115,8 @@ Follow these steps to set up the project locally.
 ### Steps
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/your-username/weapon-detection-system.git
-   cd weapon-detection-system/backend
+   git clone https://github.com/Nihal-Kappungal/Real-Time-Weapon-Detection-System-Using-YOLO.git
+   cd project-WeaponDetection/backend
    ```
 2. **Create a Virtual Environment**:
    ```bash
@@ -138,16 +138,16 @@ Follow these steps to set up the project locally.
    ```
 5. **Set Up Twilio Credentials**:
    
- - For webcam: Ensure cap = cv2.VideoCapture(0) in app.py.
- - For video file: Update to cap = cv2.VideoCapture('path/to/video.mp4')
+   - For webcam: Ensure cap = cv2.VideoCapture(0) in app.py.
+   - For video file: Update to cap = cv2.VideoCapture('path/to/video.mp4')
    
 6. **Run the backend**:
- - The server will start at http://localhost:5000.
+   - The server will start at http://localhost:5000.
   ```bash
     python app.py
   ```
 7. **Run the backend**:
- - If you have a frontend, follow its setup instructions (e.g., npm install && npm start for a React app).
+   - If you have a frontend, follow its setup instructions (e.g., npm install && npm start for a React app).
   ```bash
     npm install
     npm run dev
@@ -155,20 +155,20 @@ Follow these steps to set up the project locally.
 ## Usage
 
 1. **Start the Application**:
-   - Run `python app.py` to launch the Flask server.
-   - The video stream begins processing, and detections are logged.
+     - Run `python app.py` to launch the Flask server.
+     - The video stream begins processing, and detections are logged.
 
 2. **Access the Web Interface**:
-   - Open `http://localhost:3000` (assuming your frontend is running there) to view the live stream and alerts.
-   - Alternatively, visit `http://localhost:5000/stream` to see the raw video feed.
+     - Open `http://localhost:3000` (assuming your frontend is running there) to view the live stream and alerts.
+     - Alternatively, visit `http://localhost:5000/stream` to see the raw video feed.
 
 3. **Receive Notifications**:
-   - Real-time alerts appear in the frontend via WebSocket.
-   - SMS notifications are sent to the configured phone number with weapon details and timestamp.
+     - Real-time alerts appear in the frontend via WebSocket.
+     - SMS notifications are sent to the configured phone number with weapon details and timestamp.
 
 4. **Review Data**:
-   - Access `http://localhost:5000/api/history` for past detections.
-   - Use `http://localhost:5000/api/analysis/weapon-distribution` for weapon statistics.
+     - Access `http://localhost:5000/api/history` for past detections.
+     - Use `http://localhost:5000/api/analysis/weapon-distribution` for weapon statistics.
 
 ## API Endpoints
 
